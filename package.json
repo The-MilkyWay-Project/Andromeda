@@ -1,0 +1,56 @@
+{
+  "name": "Andromeda",
+  "version": "4.0.0",
+  "description": "Andromeda, React, repeat. A React component library boilerplate.",
+  "main": "dist/rinse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "storybook": "start-storybook -p 9001",
+    "build-storybook": "build-storybook -c .storybook -o .out",
+    "deploy-storybook": "storybook-to-ghpages",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwlsn/rinse-react.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "react",
+    "shared",
+    "components",
+    "components"
+  ],
+  "author": "Joshua Daniel Walker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cwlsn/rinse-react/issues"
+  },
+  "homepage": "https://github.com/cwlsn/rinse-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^4.0.0-alpha.20",
+    "@storybook/react": "^4.1.18",
+    "@storybook/storybook-deployer": "^2.8.6",
+    "@tulipjs/eslint-config": "^1.1.1",
+    "babel-loader": "^8.0.1",
+    "css-loader": "^1.0.0",
+    "docz": "^2.3.1",
+    "docz-theme-default": "^1.2.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.1"
+  }
+}
