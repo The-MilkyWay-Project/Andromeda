@@ -13,5 +13,5 @@ import Footer from './Footer';
 // rendered in the rendering area
 storiesOf('Footer')
 	.add('with text', () => (
-		<Footer id="Footer" >Hello Footer</Footer>
+		<Footer id="footer" >Hello Footer</Footer>
 	))

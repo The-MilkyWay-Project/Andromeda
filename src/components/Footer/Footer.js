@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 // Style components take CSS in a template string. Even Sass functions with work!
 // Each element is a property of styled, like h3, p, div, etc...
-const FooterStyle = styled.Footer`
+const FooterStyle = styled.footer`
 	color: #000;
 `;
 
