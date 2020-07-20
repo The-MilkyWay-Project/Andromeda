@@ -2,6 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hostname-v1
+  annotations:
+    fluxcd.io/tag.podinfod: semver:0.0.*
+    fluxcd.io/automated: 'true'
 spec:
   replicas: 1
   selector:
@@ -19,7 +22,7 @@ spec:
         version: v1
     spec:
       containers:
-      - image: rstarmer/hostname:v1
+      - image: joshdwalker/umbriel
         imagePullPolicy: Always
         name: hostname
         resources: {}
